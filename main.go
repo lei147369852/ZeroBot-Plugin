@@ -202,7 +202,7 @@ import (
 
 	// webctrl "github.com/FloatTech/zbputils/control/web"
 
-	"github.com/FloatTech/ZeroBot-Plugin/kanban/banner"
+	"github.com/FloatTech/ZeroBot-Plugin/kanban/banner" 
 	// -----------------------以上为内置依赖，勿动------------------------ //
 )
 
@@ -226,9 +226,9 @@ func init() {
 	// 直接写死 URL 时，请更改下面第二个参数
 	url := flag.String("u", "ws://127.0.0.1:6700", "Set Url of WSClient.")
 	// 默认昵称
-	adana := flag.String("n", "椛椛", "Set default nickname.")
+	adana := flag.String("n", "机器人", "Set default nickname.") 
 	prefix := flag.String("p", "/", "Set command prefix.")
-	runcfg := flag.String("c", "", "Run from config file.")
+	runcfg := flag.String("c", "", "Run from config file.") 
 	save := flag.String("s", "", "Save default config to file and exit.")
 	late := flag.Uint("l", 233, "Response latency (ms).")
 	rsz := flag.Uint("r", 4096, "Receiving buffer ring size.")
@@ -258,8 +258,8 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	// sus = append(sus, 12345678)
-	// sus = append(sus, 87654321)
+	// sus = append(sus, 368153627)
+	// sus = append(sus, 2172425858)
 
 	// 启用 webui
 	// go webctrl.RunGui(*g)
